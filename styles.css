@@ -1,9 +1,9 @@
 body {
-  background-color: #f2d9b0;
+  background-color: #fcfbf9;
   font-family: "Times New Roman", Times, serif;
   color: #000000;
-  margin: 0;
-  padding: 0;
+  margin: 600px;
+  padding: 40px;
 }
 
 .container {

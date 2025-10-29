@@ -1,0 +1,73 @@
+/* Reset defaults */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: auto;
+    padding: auto;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8a9a9; /* light pink background (matches screenshot) */
+    color: #000;
+    line-height: 1.6;
+}
+
+/* Header section */
+header {
+    background-color: #f9c784; /* light orange section */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #000;
+}
+
+header p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    background-color: #d58fc4; /* lavender-pink background for main content */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 8px;
+    color: #000;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Sidebar (Quick Links section) */
+aside {
+    background-color: #d58fc4; /* same as main to blend */
+    margin-top: 30px;
+}
+
+aside h4 {
+    margin-bottom: 30px
+}
