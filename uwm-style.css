@@ -1,10 +1,16 @@
 
 body, h1, h2, h3, h4, p, ul, li {
     margin: auto;
-
+    max-width: 600px;
+list-style: none;
 }
 
+.wrapper{
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
 
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e8a9a9; 
@@ -16,6 +22,7 @@ body {
 header {
     background-color: #f9c784;
     padding: 20px;
+    max-width: auto;
 }
 
 header h1 {
@@ -41,12 +48,17 @@ nav ul li {
 nav ul li a {
     color: blue;
     text-decoration: underline;
+    list-style: none;
+    margin: 0%;
 }
 
 
 main {
     background-color: #d58fc4; 
-    padding: 20px;
+    padding: 0;
+    margin: auto;
+    max-width: 600px;
+    max-height: fit-content;
 }
 
 section {
@@ -66,6 +78,7 @@ p {
 aside {
     background-color: #d58fc4; 
     margin-top: 30px;
+    margin-bottom: auto;
 }
 
 aside h4 {
