@@ -9,6 +9,7 @@ list-style: none;
     text-align: center;
     margin: auto;
     max-width: 600px;
+    max-height: max-content;
 
 }
 body {
